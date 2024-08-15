@@ -27,6 +27,14 @@ def answerBank ():
         print("\nAnything else, your highness??\nYou had one question and that is the best you could do?\n______________________\n")
     elif userAsk >45:
         print("\nCalm down, Karen.\nI am the manager.\n=======================\n")
+        if userAsk >= 46 and userAsk <= 60:
+            if userAsk >= 46 and userAsk <= 49:
+                print("\nDamn, you are one long winded dumbass.\n___________\n")
+            if userAsk >= 50 and userAsk <=55:
+                print("\nIDC\nYou humans are so self centered.\nYou really don't get it do you?\n_______________\n")
+            if userAsk >= 56 and userAsk <= 60:
+                print("\nYou know what you need?\nA new brain!\nBecause the one you have is broken.\n____________\n")
+
         
 #import functionality
 #from Answers import answerBank
